@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-vitkon",
-  "version": "1.0.0",
+  "name": "@vitkon/eslint-config",
+  "version": "1.0.1",
   "description": "An opinionated ESLint config for JavaScript projects",
   "author": "Vitaly Kondratiev <vitalkond@gmail.com>",
   "license": "MIT",
