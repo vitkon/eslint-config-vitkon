@@ -2,6 +2,8 @@
   "name": "eslint-config-vitkon",
   "version": "1.0.0",
   "description": "An opinionated ESLint config for JavaScript projects",
+  "author": "Vitaly Kondratiev <vitalkond@gmail.com>",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,8 +18,6 @@
     "lint",
     "vitkon"
   ],
-  "author": "Vitaly Kondratiev <vitalkond@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vitkon/eslint-config-vitkon/issues"
   },
@@ -33,7 +33,6 @@
     "testlint": "^1.0.1"
   },
   "scripts": {
-    "lint": "eslint -c index.js ./",
-    "test": "node --harmony ./node_modules/.bin/tape test/unit/*.js | tap-difflet"
+    "lint": "eslint -c index.js ./"
   }
 }
